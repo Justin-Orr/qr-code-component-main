@@ -3,3 +3,19 @@
 @import url("variables.css");
 @import url("globals.css");
 @import url("qr-card.css");
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    align-self: center;
+    margin-block: auto;
+}
+
+footer {
+    align-self: center;
+}
