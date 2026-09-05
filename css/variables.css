@@ -1,0 +1,24 @@
+@import url("fonts.css");
+
+:root {
+    /* Colors*/
+    --slate-300: #D5E1EF;
+    --slate-500: #68778D;
+    --slate-900: #1F314F;
+
+    /* Spacing */
+    --small-spacing: 1rem; /* 16px */
+    --medium-spacing: 1.5rem; /* 24px */
+    --large-spacing: 2.5rem; /* 40px */
+
+    /* Typography */
+    --font-family-primary: "Outfit", sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    --font-size-base: 0.9375rem; /* 15px */
+
+    /* Border Radius */
+    --border-radius-small: 0.625rem; /* 10px */
+    --border-radius-medium: 1.25rem; /* 20px */
+
+}

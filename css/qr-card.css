@@ -1,0 +1,39 @@
+
+#qr-card {
+    width: 100%;
+    max-width: 20rem;
+    height: auto;
+    background-color: white;
+    border-radius: var(--border-radius-medium);
+    padding-left: var(--small-spacing);
+    padding-top: var(--small-spacing);
+    padding-right: var(--small-spacing);
+    padding-bottom: var(--large-spacing);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#qr-card figure img{
+    max-width: 18rem;
+    max-height: 18rem;
+    border-radius: var(--border-radius-small);
+}
+
+#qr-card header {
+    color: var(--slate-900);
+    font-weight: var(--font-weight-bold);
+    font-size: 1.375rem; /* 22px */
+    text-align: center;
+    margin-top: var(--medium-spacing);
+}
+
+#qr-card p {
+    color: var(--slate-500);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-regular);
+    padding-right: var(--small-spacing);
+    padding-left: var(--small-spacing);
+    text-align: center;
+}
